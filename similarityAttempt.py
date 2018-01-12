@@ -18,5 +18,5 @@ index.save('./tmp/deerwester.index')
 sims = index[vec_lsi]
 # print(list(enumerate(sims)))
 
-sims = sorted(enumerate(sims),key=lambda item:-item[1])
+sims = sorted(enumerate(sims),key=lambda item: -item[1])
 print(sims)
